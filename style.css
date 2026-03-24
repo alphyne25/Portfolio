@@ -161,6 +161,11 @@ html {
   }
 </style>
 
+/* Prevent pinch-zoom on mobile */
+body {
+  touch-action: pan-x pan-y;
+}
+
 @media (max-width: 768px) {
   .timeline-dot {
     left: 1rem !important;
